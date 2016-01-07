@@ -22,7 +22,7 @@ for (int c = 0; c < l_files.length; c++) {
 //        a_files.add(l_files[c].getName());
 		String filename = l_files[c].getName();
 		
-		out.println("<a href='/software/" + filename + "'>" + filename + "</a><br>");
+		out.println("<a href='http://plno-evci-optimus.rich.tek.com/software/" + filename + "'>" + filename + "</a><br>");
     }
 }
 
