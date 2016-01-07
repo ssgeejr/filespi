@@ -12,7 +12,7 @@
   <description>List the files in a directory, creating html downloadble links</description>  
   
   <build>
-    <finalName>fileSpi</finalName>
+    <finalName>filespi</finalName>
 	<plugins>
 		<plugin>
 			<artifactId>maven-compiler-plugin</artifactId>

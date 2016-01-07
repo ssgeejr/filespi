@@ -25,9 +25,6 @@ for (int c = 0; c < l_files.length; c++) {
 }
 
 
-
-
-
 }catch(Exception ex){
 	out.println("<font color=\"red\">");
 	StackTraceElement[] ste = ex.getStackTrace();
