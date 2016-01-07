@@ -7,7 +7,7 @@
 
 <html>
 <body>
-<h2>Hello World!</h2>
+<b>Available Files:</b></p>
 
 <%
 try{
@@ -20,7 +20,9 @@ for (int c = 0; c < l_files.length; c++) {
 //        out.println(l_files[c].getName())
 //    } else {
 //        a_files.add(l_files[c].getName());
-		out.println(l_files[c].getName() + "<br>");
+		String filename = l_files[c].getName();
+		
+		out.println("<a href='/software/" + filename + "'>" + filename + "</a><br>");
     }
 }
 
